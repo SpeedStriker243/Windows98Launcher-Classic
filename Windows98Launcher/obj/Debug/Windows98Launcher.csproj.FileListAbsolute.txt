@@ -1,0 +1,10 @@
+C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\bin\Debug\Windows98Launcher.exe.config
+C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\bin\Debug\Windows98Launcher.exe
+C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\bin\Debug\Windows98Launcher.pdb
+C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.Properties.Resources.resources
+C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.csproj.GenerateResource.Cache
+C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.exe
+C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.pdb
+C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.BootOptions.resources
+C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.MainWindow.resources
+C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.csprojResolveAssemblyReference.cache
