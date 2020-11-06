@@ -1,5 +1,5 @@
 # Windows 98 Launcher
-An open source GUI front-end for QEMU that is intended for installing and running Windows 98 inside of a virtual machine. Currently unfinished. Bundled with QEMU and written in .NET C#.
+An open source GUI front-end for QEMU that is intended for installing and running Windows 98 inside of a virtual machine. Currently unfinished. Bundled with QEMU and written in .NET C#. Yeah, that means it won't work in macOS or Linux without any [compatibility layers](https://www.winehq.org/). Sorry.
 
 ![Windows 98 Launcher](https://github.com/SpeedStriker243/Windows98Launcher/raw/master/win98launcher.png)
 
