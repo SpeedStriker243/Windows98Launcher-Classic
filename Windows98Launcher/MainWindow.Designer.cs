@@ -31,13 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Setup = new System.Windows.Forms.Button();
+            this.Start = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BootOptions = new System.Windows.Forms.Button();
+            this.ClearDisk = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,25 +62,25 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Where do you want to go today?";
             // 
-            // button2
+            // Setup
             // 
-            this.button2.Image = global::Windows98Launcher.Properties.Resources.SetupIcon;
-            this.button2.Location = new System.Drawing.Point(287, 178);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(84, 84);
-            this.button2.TabIndex = 4;
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Setup.Image = global::Windows98Launcher.Properties.Resources.SetupIcon;
+            this.Setup.Location = new System.Drawing.Point(287, 178);
+            this.Setup.Name = "Setup";
+            this.Setup.Size = new System.Drawing.Size(84, 84);
+            this.Setup.TabIndex = 4;
+            this.Setup.UseVisualStyleBackColor = true;
+            this.Setup.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button1
+            // Start
             // 
-            this.button1.Image = global::Windows98Launcher.Properties.Resources.StartIcon;
-            this.button1.Location = new System.Drawing.Point(138, 178);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 84);
-            this.button1.TabIndex = 3;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Start.Image = global::Windows98Launcher.Properties.Resources.StartIcon;
+            this.Start.Location = new System.Drawing.Point(138, 178);
+            this.Start.Name = "Start";
+            this.Start.Size = new System.Drawing.Size(84, 84);
+            this.Start.TabIndex = 3;
+            this.Start.UseVisualStyleBackColor = true;
+            this.Start.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
@@ -121,27 +122,38 @@
             this.label5.Text = "Windows 98 Launcher uses QEMU for emulation.";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // button3
+            // BootOptions
             // 
-            this.button3.Location = new System.Drawing.Point(138, 149);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(84, 23);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Boot Options";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.BootOptions.Location = new System.Drawing.Point(138, 149);
+            this.BootOptions.Name = "BootOptions";
+            this.BootOptions.Size = new System.Drawing.Size(84, 23);
+            this.BootOptions.TabIndex = 7;
+            this.BootOptions.Text = "Boot Options";
+            this.BootOptions.UseVisualStyleBackColor = true;
+            this.BootOptions.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // ClearDisk
+            // 
+            this.ClearDisk.Location = new System.Drawing.Point(287, 149);
+            this.ClearDisk.Name = "ClearDisk";
+            this.ClearDisk.Size = new System.Drawing.Size(84, 23);
+            this.ClearDisk.TabIndex = 8;
+            this.ClearDisk.Text = "Clear Disk";
+            this.ClearDisk.UseVisualStyleBackColor = true;
+            this.ClearDisk.Click += new System.EventHandler(this.ClearDisk_Click);
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(528, 359);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.ClearDisk);
+            this.Controls.Add(this.BootOptions);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Setup);
+            this.Controls.Add(this.Start);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -162,12 +174,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Start;
+        private System.Windows.Forms.Button Setup;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button BootOptions;
+        private System.Windows.Forms.Button ClearDisk;
     }
 }
 
