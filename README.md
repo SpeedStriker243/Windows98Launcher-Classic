@@ -28,7 +28,7 @@ Whatever you can do with a Windows 98 VM.
 Unless you somehow had a flipping modem from the 90's, then no, I don't think it'd have internet. (Disclaimer: even if you *did* have a modem I don't think it'd work)
 
 ## Why would I use this when I can just use VirtualBox or VMware?
-No one said you had to, this was just an experiment.
+No one said you had to, this was just an experiment. Plus it's more fun to play around with a VM that you could absolutely screw up if you're not careful.
 
 ## Can it run Doom?
 Abso-fricking-lutely.
