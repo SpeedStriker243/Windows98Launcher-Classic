@@ -4,7 +4,7 @@ An open source GUI front-end for QEMU that is intended for installing and runnin
 ![Windows 98 Launcher](https://github.com/SpeedStriker243/Windows98Launcher/raw/master/win98launcher.png)
 
 ## OS files
-You need to provide your own Windows 98 ISO for use with this project, however a boot disk is already supplied. This ISO file must be named `windows98.iso`.
+You need to provide your own Windows 98 ISO for use with this project, however a boot disk is already supplied. This ISO file must be named `windows98.iso`. For legal reasons, I can't include one in this project.
 
 ### Other OSes
 It is possible to boot other operating systems using *their* ISO files, but it is not recommended, as this project was created with Windows 98 in mind. 
