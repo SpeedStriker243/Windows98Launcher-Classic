@@ -14,6 +14,14 @@ If the OS in question supports i386 (Intel x86 32-bit) processors, it'll probabl
 ## Hard disk image
 If you already have a QCOW2 image for Windows 98 (or any other x86 OS), you can run it using this project. The image must be named `win98.qcow2`, however if you do not have an image, the program will use `qemu-img` to create one.
 
+### Exploring and editing the file
+You can view the files inside the QCOW2 image using the [VMXRay](https://vmxray.com/) online tool.
+To be able to *write* to the image, first convert it to a VHD image using `qemu-img` with the following command:
+```
+qemu-img convert -f qcow2 -O vpc ..\win98.qcow2 ..\win98.vhd
+```
+Then mount the VHD file using Disk Management.
+
 ## QEMU
 [QEMU](https://www.qemu.org/) is open source software licensed under the [GNU General Public License V2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) created by [Fabrice Bellard](https://bellard.org/), and is not affiliated with this project or me whatsoever.
 
