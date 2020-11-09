@@ -66,15 +66,15 @@ namespace Windows98Launcher
             string BootArgs = "";
             if (BootOptionVars.CD & BootOptionVars.FloppyDisk)
             {
-                BootArgs = @"-serial stdio -drive file=..\win98.qcow2,media=disk -cdrom " + BootOptionVars.CDName + " -fda " + BootOptionVars.FloppyName + " -full-screen";
+                BootArgs = "-serial stdio -drive file=..\\win98.qcow2,media=disk -cdrom \"" + BootOptionVars.CDName + "\" -fda \"" + BootOptionVars.FloppyName + "\"";
             }
             else if (BootOptionVars.CD)
             {
-                BootArgs = @"-serial stdio -drive file=..\win98.qcow2,media=disk -cdrom " + BootOptionVars.CDName + " -full-screen";
+                BootArgs = "-serial stdio -drive file=..\\win98.qcow2,media=disk -cdrom \"" + BootOptionVars.CDName + "\"";
             }
             else if (BootOptionVars.FloppyDisk)
             {
-                BootArgs = @"-serial stdio -drive file=..\win98.qcow2,media=disk -fda " + BootOptionVars.FloppyName + " -full-screen";
+                BootArgs = "-serial stdio -drive file=..\\win98.qcow2,media=disk -fda \"" + BootOptionVars.FloppyName + "\"";
             }
             else
             {

@@ -8,3 +8,14 @@ C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Win
 C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.BootOptions.resources
 C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.MainWindow.resources
 C:\Users\kaz18001436\Documents\Visual Studio 2017\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.csprojResolveAssemblyReference.cache
+C:\Users\sonic\Documents\Visual Studio 2019\Projects\Windows98Launcher\Windows98Launcher\bin\Debug\Windows98Launcher.exe.config
+C:\Users\sonic\Documents\Visual Studio 2019\Projects\Windows98Launcher\Windows98Launcher\bin\Debug\Windows98Launcher.exe
+C:\Users\sonic\Documents\Visual Studio 2019\Projects\Windows98Launcher\Windows98Launcher\bin\Debug\Windows98Launcher.pdb
+C:\Users\sonic\Documents\Visual Studio 2019\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.csprojAssemblyReference.cache
+C:\Users\sonic\Documents\Visual Studio 2019\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.BootOptions.resources
+C:\Users\sonic\Documents\Visual Studio 2019\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.MainWindow.resources
+C:\Users\sonic\Documents\Visual Studio 2019\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.Properties.Resources.resources
+C:\Users\sonic\Documents\Visual Studio 2019\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.csproj.GenerateResource.cache
+C:\Users\sonic\Documents\Visual Studio 2019\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.csproj.CoreCompileInputs.cache
+C:\Users\sonic\Documents\Visual Studio 2019\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.exe
+C:\Users\sonic\Documents\Visual Studio 2019\Projects\Windows98Launcher\Windows98Launcher\obj\Debug\Windows98Launcher.pdb

@@ -81,7 +81,7 @@ namespace Windows98Launcher
             win98.StartInfo.UseShellExecute = true;
             win98.StartInfo.WorkingDirectory = Qemu.Path;
             win98.StartInfo.FileName = "qemu-system-i386.exe";
-            win98.StartInfo.Arguments = @"-serial stdio -drive file=..\win98.qcow2,media=disk -full-screen";
+            win98.StartInfo.Arguments = @"-serial stdio -drive file=..\win98.qcow2,media=disk";
             win98.StartInfo.CreateNoWindow = true;
             win98.Start();
         }
@@ -92,7 +92,7 @@ namespace Windows98Launcher
             win98.StartInfo.UseShellExecute = true;
             win98.StartInfo.WorkingDirectory = Qemu.Path;
             win98.StartInfo.FileName = "qemu-system-i386.exe";
-            win98.StartInfo.Arguments = @"-serial stdio -drive file=..\win98.qcow2,media=disk -fda ..\winboot.img -cdrom ..\windows98.iso -boot d -full-screen";
+            win98.StartInfo.Arguments = @"-serial stdio -drive file=..\win98.qcow2,media=disk -fda ..\winboot.img -cdrom ..\windows98.iso -boot d";
             win98.StartInfo.CreateNoWindow = true;
             win98.Start();
         }
