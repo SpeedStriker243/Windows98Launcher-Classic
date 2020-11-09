@@ -39,4 +39,4 @@ Unless you somehow had a flipping modem from the 90's, then no, I don't think it
 No one said you had to, this was just an experiment. Plus it's more fun to play around with a VM that you could absolutely screw up if you're not careful.
 
 ## Can it run Doom?
-Abso-fricking-lutely.
+Abso-fricking-lutely. [I even made a custom QCOW2 image for it.](https://drive.google.com/file/d/1FI5B9kikLCxFtn4Qac-uii5dc6SqVmh8/view?usp=sharing)
