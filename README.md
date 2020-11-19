@@ -15,12 +15,9 @@ If the OS in question supports i386 (Intel x86 32-bit) processors, it'll probabl
 If you already have a QCOW2 image for Windows 98 (or any other x86 OS), you can run it using this project. The image must be named `win98.qcow2`, however if you do not have an image, the program will use `qemu-img` to create one.
 
 ### Exploring and editing the file
-You can view the files inside the QCOW2 image using the [VMXRay](https://vmxray.com/) online tool.
-To be able to *write* to the image, first convert it to a VHD image using `qemu-img` with the following command:
-```
-qemu-img convert -f qcow2 -O vpc ..\win98.qcow2 ..\win98.vhd
-```
-Then mount the VHD file using Disk Management.
+[7-Zip](https://www.7-zip.org/) supports opening, browsing and extracting QCOW2 files, but it cannot edit them.
+There is a [guide](https://gist.github.com/shamil/62935d9b456a6f9877b5) for mounting QCOW2 images, but it seems to work for a Linux system with NBD support only -- if on Windows, Cygwin or WSL might work. I don't know, I haven't tried it.
+If you just want to copy a few files to the VM, use [this utility](https://www.trustfm.net/software/utilities/Folder2Iso.php) to compress a folder to an ISO disk image and use ![Boot Options](https://github.com/SpeedStriker243/Windows98Launcher/raw/master/BootOptionsButton.PNG) in the launcher to start up the machine with that ISO file.
 
 ## QEMU
 [QEMU](https://www.qemu.org/) is open source software licensed under the [GNU General Public License V2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html) created by [Fabrice Bellard](https://bellard.org/), and is not affiliated with this project or me whatsoever.
